@@ -26,12 +26,12 @@ nav{
     
 }
 
-
 nav ul li{
     list-style-type: none;
     display: inline-block;
     padding: 5px 20px;
     margin: 0;
+    font-family: 'Play', sans-serif;
 }
 nav ul li a{
     display: flex;
@@ -84,6 +84,7 @@ button{
     font-size: 15px;
     transition: .4s;
     margin: 0;
+    font-family: 'Play', sans-serif;
 }
 button:hover{
     background: rgb(0, 236, 236);
@@ -223,15 +224,16 @@ button:hover{
 .card1{
     width: 1000px;
     max-width: 1000px;
-    color: rgb(44, 43, 43);
+    color: rgb(37, 37, 37);
     text-align: center;
     padding: 40px 40px;
     background: linear-gradient(180deg, rgba(110, 108, 108, 0.418),rgba(255, 255, 255, 0.329));
     background-position-x: blur(10px);
     border-radius: 30px;
     box-shadow: 0 40px 70px rgba(107, 107, 107, 0.952), 0 40px 70px rgba(0, 0, 0, 0.507);
-    font-family: 'Poppins', sans-serif;
     backdrop-filter: blur(5px);
+    font-family: 'Play', sans-serif;
+    font-weight: 500;
 }
 .list1{
     text-align: left;
@@ -603,7 +605,7 @@ button:hover{
     background: rgba(158, 158, 158, 0);
     width: 290px;
     height: 290px;
-    margin-top: -225px;
+    margin-top: -230px;
     border-radius: 50%;
     margin-left: 10px;
     overflow: hidden;
