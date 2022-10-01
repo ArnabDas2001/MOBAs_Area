@@ -222,18 +222,24 @@ button:hover{
 }
 
 .card1{
-    width: 1000px;
-    max-width: 1000px;
+    width: 1200px;
     color: rgb(37, 37, 37);
-    text-align: center;
+    text-align: left;
+    margin-left: -90px;
     padding: 40px 40px;
-    background: linear-gradient(180deg, rgba(110, 108, 108, 0.418),rgba(255, 255, 255, 0.329));
-    background-position-x: blur(10px);
     border-radius: 30px;
-    box-shadow: 0 40px 70px rgba(107, 107, 107, 0.952), 0 40px 70px rgba(0, 0, 0, 0.507);
-    backdrop-filter: blur(5px);
+    box-shadow: 0 30px 50px rgba(107, 107, 107, 0.952), 0 40px 60px rgba(48, 47, 47, 0.507),
+        inset 0 -10px 20px 0 #4a6369;
+    backdrop-filter: blur(15px);
     font-family: 'Play', sans-serif;
     font-weight: 500;
+    overflow: hidden;
+}
+.card1 img{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    margin-top: -30px;
 }
 .list1{
     text-align: left;
@@ -428,7 +434,7 @@ button:hover{
 #progress-content-section{
     width: 93%;
     margin: auto;
-    background: #00000000;
+    background: rgba(128, 128, 128, 0);
     border-radius: 10px;
     font-family: 'Play', sans-serif;
     font-weight: 600;
