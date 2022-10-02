@@ -229,7 +229,7 @@ button:hover{
     margin-left: -90px;
     padding: 40px 40px;
     border-radius: 30px;
-    box-shadow: 0 20px 30px rgba(107, 107, 107, 0.952), 0 20px 30px rgba(48, 47, 47, 0.507),
+    box-shadow: 0 20px 30px rgba(29, 29, 29, 0.952), 0 20px 30px rgba(48, 47, 47, 0.507),
         inset 1px 0px 20px 1px #5f5d5d;
     backdrop-filter: blur(0px);
     font-family: 'Play', sans-serif;
@@ -267,14 +267,14 @@ button:hover{
     margin-left: -90px;
     padding: 40px 40px;
     border-radius: 30px;
-    box-shadow: 0 30px 50px rgba(107, 107, 107, 0.952), 0 40px 60px rgba(48, 47, 47, 0.507),
+    box-shadow: 0 30px 50px rgba(29, 29, 29, 0.952), 0 40px 60px rgba(48, 47, 47, 0.507),
         inset 1px 0px 20px 1px #4b6c7c;
     backdrop-filter: blur(0px);
     font-family: 'Play', sans-serif;
     font-weight: 500;
     overflow: hidden;
     z-index: 1;
-    margin-top: 70px;
+    margin-top: 90px;
 }
 .ovimg2 img{
     position: absolute;
@@ -283,7 +283,7 @@ button:hover{
     object-fit: cover;
     margin-left: -590px;
     border-radius: 30px;
-    margin-top: 70px;
+    margin-top: 90px;
 }
 .card1of1 h2{
     padding-top: 40px;
@@ -305,12 +305,190 @@ button:hover{
     padding-left: 700px;
     padding-right: 10px; 
 }
-
-.list2{
+.wrapper .card2of1{
+    width: 1200px;
+    height: 500px;
+    position: relative;
+    color: rgba(37, 37, 37, 0.877);
     text-align: left;
-    text-indent: 0px;
-    padding-left: 4%;
+    margin-left: -90px;
+    padding: 40px 40px;
+    border-radius: 30px;
+    box-shadow: 0 30px 50px rgba(107, 107, 107, 0.952), 0 40px 60px rgba(48, 47, 47, 0.507),
+        inset 1px 0px 20px 1px #4b6c7c;
+    backdrop-filter: blur(0px);
+    font-family: 'Play', sans-serif;
+    font-weight: 500;
+    overflow: hidden;
+    z-index: 1;
+    margin-top: 90px;
 }
+.ovimg3 img{
+    position: absolute;
+    width: 1200px;
+    height: 500px;
+    object-fit: cover;
+    margin-left: -590px;
+    border-radius: 30px;
+    margin-top: 90px;
+}
+.card2of1 h2{
+    padding-top: 55px;
+    color: aqua;
+    font-size: 43px;
+    padding-left: 20px;
+}
+.card2of1 p{
+    color: rgb(255, 226, 62);
+    font-size: 20px;
+    padding-top: 30px; 
+    padding-right: 815px;
+    padding-left: 20px;
+}
+
+.wrapper .card3of1{
+    width: 1200px;
+    height: 500px;
+    position: relative;
+    color: rgba(37, 37, 37, 0.877);
+    text-align: left;
+    margin-left: -90px;
+    padding: 40px 40px;
+    border-radius: 30px;
+    box-shadow: 0 30px 50px rgba(107, 107, 107, 0.952), 0 40px 60px rgba(48, 47, 47, 0.507),
+        inset 1px 0px 20px 1px #3b3c3d;
+    backdrop-filter: blur(0px);
+    font-family: 'Play', sans-serif;
+    font-weight: 500;
+    overflow: hidden;
+    z-index: 1;
+    margin-top: 90px;
+}
+.ovimg4 img{
+    position: absolute;
+    width: 1200px;
+    height: 500px;
+    object-fit: cover;
+    margin-left: -590px;
+    border-radius: 30px;
+    margin-top: 90px;
+}
+.card3of1 h2{
+    padding-top: 40px;
+    color: aqua;
+    font-size: 40px;
+    padding-left: 740px;
+}
+.card3of1 p{
+    padding-top: 30px;
+    color: rgb(255, 226, 62);
+    font-size: 20px; 
+    padding-left: 740px;
+}
+.card3of1 .list2{
+    color: rgb(255, 226, 62);
+    font-size: 19px;
+    padding-left: 740px;
+    padding-right: 10px; 
+}
+
+.wrapper .card4of1{
+    width: 1200px;
+    height: 500px;
+    position: relative;
+    color: rgba(37, 37, 37, 0.877);
+    text-align: left;
+    margin-left: -90px;
+    padding: 40px 40px;
+    border-radius: 30px;
+    box-shadow: 0 30px 50px rgba(107, 107, 107, 0.952), 0 40px 60px rgba(48, 47, 47, 0.507),
+        inset 1px 0px 20px 1px #3b3c3d;
+    backdrop-filter: blur(0px);
+    font-family: 'Play', sans-serif;
+    font-weight: 500;
+    overflow: hidden;
+    z-index: 1;
+    margin-top: 90px;
+}
+.ovimg5 img{
+    position: absolute;
+    width: 1200px;
+    height: 500px;
+    object-fit: cover;
+    margin-left: -590px;
+    border-radius: 30px;
+    margin-top: 90px;
+}
+.card4of1 h2{
+    padding-top: 20px;
+    color: aqua;
+    font-size: 40px;
+    padding-left: 20px;
+    padding-right: 700px;
+}
+.card4of1 p{
+    padding-top: 30px;
+    color: rgb(255, 226, 62);
+    font-size: 20px; 
+    padding-right: 670px;
+    padding-left: 20px;
+}
+
+.wrapper .card5of1{
+    width: 1200px;
+    height: 500px;
+    position: relative;
+    color: rgba(37, 37, 37, 0.877);
+    text-align: left;
+    margin-left: -90px;
+    padding: 40px 40px;
+    border-radius: 30px;
+    box-shadow: 0 30px 50px rgba(107, 107, 107, 0.952), 0 40px 60px rgba(48, 47, 47, 0.507),
+        inset 1px 0px 20px 1px #3b3c3d;
+    backdrop-filter: blur(0px);
+    font-family: 'Play', sans-serif;
+    font-weight: 500;
+    overflow: hidden;
+    z-index: 1;
+    margin-top: 90px;
+}
+.ovimg6 img{
+    position: absolute;
+    width: 1200px;
+    height: 500px;
+    object-fit: cover;
+    margin-left: -590px;
+    border-radius: 30px;
+    margin-top: 90px;
+}
+.card5of1 h2{
+    padding-top: 10px;
+    color: aqua;
+    font-size: 40px;
+    padding-left: 720px;
+}
+.card5of1 p{
+    padding-top: 30px;
+    color: rgb(255, 226, 62);
+    font-size: 20px; 
+    padding-left: 720px;
+    margin-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Swiper */
 .card2{
     background: linear-gradient(90deg, rgba(0, 87, 250, 0.788),rgba(5, 255, 201, 0.671));
     box-shadow: 0 10px 10px rgba(107, 107, 107, 0.952), 0 40px 70px rgba(0, 0, 0, 0.507);
