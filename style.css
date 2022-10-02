@@ -223,29 +223,89 @@ button:hover{
 
 .card1{
     width: 1200px;
-    color: rgb(37, 37, 37);
+    height: 500px;
+    color: rgba(37, 37, 37, 0.877);
+    text-align: left;
+    margin-left: -90px;
+    padding: 40px 40px;
+    border-radius: 30px;
+    box-shadow: 0 20px 30px rgba(107, 107, 107, 0.952), 0 20px 30px rgba(48, 47, 47, 0.507),
+        inset 1px 0px 20px 1px #5f5d5d;
+    backdrop-filter: blur(0px);
+    font-family: 'Play', sans-serif;
+    font-weight: 500;
+    overflow: hidden;
+    z-index: 1;
+}
+.ovimg1 img{
+    position: absolute;
+    width: 1200px;
+    height: 500px;
+    object-fit: cover;
+    margin-left: -590px;
+    border-radius: 30px;
+}
+.card1 h2{
+    color: aqua;
+    font-size: 50px;
+    padding-top: 70px;
+    padding-left: 40px;
+}
+.card1 p{
+    color: rgb(255, 226, 62);
+    padding-right: 700px;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+.wrapper .card1of1{
+    width: 1200px;
+    height: 500px;
+    position: relative;
+    color: rgba(37, 37, 37, 0.877);
     text-align: left;
     margin-left: -90px;
     padding: 40px 40px;
     border-radius: 30px;
     box-shadow: 0 30px 50px rgba(107, 107, 107, 0.952), 0 40px 60px rgba(48, 47, 47, 0.507),
-        inset 0 -10px 20px 0 #4a6369;
-    backdrop-filter: blur(15px);
+        inset 1px 0px 20px 1px #4b6c7c;
+    backdrop-filter: blur(0px);
     font-family: 'Play', sans-serif;
     font-weight: 500;
     overflow: hidden;
+    z-index: 1;
+    margin-top: 70px;
 }
-.card1 img{
+.ovimg2 img{
     position: absolute;
-    z-index: -1;
-    width: 100%;
-    margin-top: -30px;
+    width: 1200px;
+    height: 500px;
+    object-fit: cover;
+    margin-left: -590px;
+    border-radius: 30px;
+    margin-top: 70px;
 }
-.list1{
-    text-align: left;
-    padding-left: 4%;
-    
+.card1of1 h2{
+    padding-top: 40px;
+    color: aqua;
+    font-size: 45px;
+    padding-left: 710px;
 }
+.card1of1 p{
+    color: rgb(255, 226, 62);
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 700px;
+    padding-right: 20px; 
+}
+.card1of1 .list1{
+    padding-top: 20px;
+    color: rgb(255, 226, 62);
+    font-size: 20px;
+    padding-left: 700px;
+    padding-right: 10px; 
+}
+
 .list2{
     text-align: left;
     text-indent: 0px;
