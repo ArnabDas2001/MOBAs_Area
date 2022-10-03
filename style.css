@@ -230,20 +230,19 @@ button:hover{
     padding: 40px 40px;
     border-radius: 30px;
     box-shadow: 0 20px 30px rgba(29, 29, 29, 0.952), 0 20px 30px rgba(48, 47, 47, 0.507),
-        inset 1px 0px 20px 1px #5f5d5d;
+        inset 1px 0px 20px 1px #434e5c;
     backdrop-filter: blur(0px);
     font-family: 'Play', sans-serif;
     font-weight: 500;
     overflow: hidden;
-    z-index: 1;
 }
-.ovimg1 img{
+.ovimg1{
     position: absolute;
-    width: 1200px;
-    height: 500px;
+    width: 1250px;
+    z-index: -3;
+    margin-top: -60px;
+    margin-left: -68px;
     object-fit: cover;
-    margin-left: -590px;
-    border-radius: 30px;
 }
 .card1 h2{
     color: aqua;
@@ -267,7 +266,7 @@ button:hover{
     margin-left: -90px;
     padding: 40px 40px;
     border-radius: 30px;
-    box-shadow: 0 30px 50px rgba(29, 29, 29, 0.952), 0 40px 60px rgba(48, 47, 47, 0.507),
+    box-shadow: 0 20px 30px rgba(29, 29, 29, 0.952), 0 20px 30px rgba(48, 47, 47, 0.507),
         inset 1px 0px 20px 1px #4b6c7c;
     backdrop-filter: blur(0px);
     font-family: 'Play', sans-serif;
@@ -276,14 +275,13 @@ button:hover{
     z-index: 1;
     margin-top: 90px;
 }
-.ovimg2 img{
+.ovimg2{
     position: absolute;
-    width: 1200px;
-    height: 500px;
+    width: 1250px;
+    z-index: -3;
+    margin-top: -68px;
+    margin-left: -68px;
     object-fit: cover;
-    margin-left: -590px;
-    border-radius: 30px;
-    margin-top: 90px;
 }
 .card1of1 h2{
     padding-top: 40px;
@@ -314,8 +312,8 @@ button:hover{
     margin-left: -90px;
     padding: 40px 40px;
     border-radius: 30px;
-    box-shadow: 0 30px 50px rgba(107, 107, 107, 0.952), 0 40px 60px rgba(48, 47, 47, 0.507),
-        inset 1px 0px 20px 1px #4b6c7c;
+    box-shadow: 0 20px 30px rgba(29, 29, 29, 0.952), 0 20px 30px rgba(48, 47, 47, 0.507),
+        inset 1px 0px 20px 1px #457470;
     backdrop-filter: blur(0px);
     font-family: 'Play', sans-serif;
     font-weight: 500;
@@ -323,14 +321,13 @@ button:hover{
     z-index: 1;
     margin-top: 90px;
 }
-.ovimg3 img{
+.ovimg3{
     position: absolute;
-    width: 1200px;
-    height: 500px;
+    width: 1250px;
+    z-index: -3;
+    margin-top: -72px;
+    margin-left: -68px;
     object-fit: cover;
-    margin-left: -590px;
-    border-radius: 30px;
-    margin-top: 90px;
 }
 .card2of1 h2{
     padding-top: 55px;
@@ -355,8 +352,8 @@ button:hover{
     margin-left: -90px;
     padding: 40px 40px;
     border-radius: 30px;
-    box-shadow: 0 30px 50px rgba(107, 107, 107, 0.952), 0 40px 60px rgba(48, 47, 47, 0.507),
-        inset 1px 0px 20px 1px #3b3c3d;
+    box-shadow: 0 20px 30px rgba(29, 29, 29, 0.952), 0 20px 30px rgba(48, 47, 47, 0.507),
+        inset 1px 0px 20px 1px #573f45;
     backdrop-filter: blur(0px);
     font-family: 'Play', sans-serif;
     font-weight: 500;
@@ -364,14 +361,13 @@ button:hover{
     z-index: 1;
     margin-top: 90px;
 }
-.ovimg4 img{
+.ovimg4{
     position: absolute;
-    width: 1200px;
-    height: 500px;
+    width: 1250px;
+    z-index: -3;
+    margin-top: -25px;
+    margin-left: -68px;
     object-fit: cover;
-    margin-left: -590px;
-    border-radius: 30px;
-    margin-top: 90px;
 }
 .card3of1 h2{
     padding-top: 40px;
@@ -401,8 +397,8 @@ button:hover{
     margin-left: -90px;
     padding: 40px 40px;
     border-radius: 30px;
-    box-shadow: 0 30px 50px rgba(107, 107, 107, 0.952), 0 40px 60px rgba(48, 47, 47, 0.507),
-        inset 1px 0px 20px 1px #3b3c3d;
+    box-shadow: 0 20px 30px rgba(29, 29, 29, 0.952), 0 20px 30px rgba(48, 47, 47, 0.507),
+        inset 1px 0px 20px 1px #47445a;
     backdrop-filter: blur(0px);
     font-family: 'Play', sans-serif;
     font-weight: 500;
@@ -410,14 +406,13 @@ button:hover{
     z-index: 1;
     margin-top: 90px;
 }
-.ovimg5 img{
+.ovimg5 {
     position: absolute;
-    width: 1200px;
-    height: 500px;
+    width: 1250px;
+    z-index: -3;
+    margin-top: -85px;
+    margin-left: -68px;
     object-fit: cover;
-    margin-left: -590px;
-    border-radius: 30px;
-    margin-top: 90px;
 }
 .card4of1 h2{
     padding-top: 20px;
@@ -443,8 +438,8 @@ button:hover{
     margin-left: -90px;
     padding: 40px 40px;
     border-radius: 30px;
-    box-shadow: 0 30px 50px rgba(107, 107, 107, 0.952), 0 40px 60px rgba(48, 47, 47, 0.507),
-        inset 1px 0px 20px 1px #3b3c3d;
+    box-shadow: 0 20px 30px rgba(29, 29, 29, 0.952), 0 20px 30px rgba(48, 47, 47, 0.507),
+        inset 1px 0px 20px 1px #4f3c58;
     backdrop-filter: blur(0px);
     font-family: 'Play', sans-serif;
     font-weight: 500;
@@ -452,14 +447,13 @@ button:hover{
     z-index: 1;
     margin-top: 90px;
 }
-.ovimg6 img{
+.ovimg6{
     position: absolute;
-    width: 1200px;
-    height: 500px;
+    width: 1250px;
+    z-index: -3;
+    margin-top: -10px;
+    margin-left: -55px;
     object-fit: cover;
-    margin-left: -590px;
-    border-radius: 30px;
-    margin-top: 90px;
 }
 .card5of1 h2{
     padding-top: 10px;
@@ -474,18 +468,6 @@ button:hover{
     padding-left: 720px;
     margin-right: 20px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* Swiper */
@@ -557,6 +539,12 @@ button:hover{
     font-size: 28px;
     color: rgba(22, 21, 21, 0.904);
 }
+
+
+
+/* timeline */
+
+
 .timeline-wrapper{
     margin: auto;
     max-width: 100%;
@@ -594,7 +582,7 @@ button:hover{
     
     border:solid 2px #fff;
        	 
-	background: linear-gradient(to right, #440ae4 50%,#fff);
+	background: linear-gradient(90deg, rgb(4, 121, 255),rgb(0, 180, 212));
 }
 
 
@@ -645,7 +633,7 @@ button:hover{
 
 }
 .timeline-container li.active:after{
-    background:#4c2093;
+    background:rgb(0, 198, 212);
 }
 .timeline-container .line{
     width: 82%;
@@ -662,8 +650,8 @@ button:hover{
 .timeline-container .line-progress{
     content: "";
     height: 100%;
-    background: #450ce2;	 
-	background: linear-gradient(90deg, rgb(4, 121, 255),#450ce2); 
+    background: rgb(2, 191, 204);	 
+	background: linear-gradient(90deg, rgb(4, 121, 255),rgb(0, 180, 212)); 
     position: absolute;
     z-index: 2;
     border-radius: 50px;
@@ -698,7 +686,10 @@ button:hover{
 
 #progress-content-section .section-content h2{
     padding-left: 60px;
-    color: #2d01a8;
+    font-size: 27px;
+    background: -webkit-linear-gradient(180deg, rgb(4, 121, 255),rgb(0, 180, 212));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 @keyframes FadeInUp {
 	0% {
@@ -736,7 +727,7 @@ button:hover{
     content: '';
     position: absolute;
     inset: -10px 67px;
-    background: #450ce2;
+    background: rgb(0, 158, 197);
     transition: 0.5s;
     animation: animate 4s linear infinite;
 }
@@ -797,7 +788,7 @@ button:hover{
     content: '';
     position: absolute;
     inset: -10px 67px;
-    background: #450ce2;
+    background: rgb(0, 158, 197);
     transition: 0.5s;
     animation: animate 4s linear infinite;
 }
@@ -860,7 +851,7 @@ button:hover{
     content: '';
     position: absolute;
     inset: -10px 67px;
-    background: #450ce2;
+    background: rgb(0, 158, 197);
     transition: 0.5s;
     animation: animate 4s linear infinite;
 }
@@ -920,7 +911,7 @@ button:hover{
     content: '';
     position: absolute;
     inset: -10px 67px;
-    background: #450ce2;
+    background: rgb(0, 158, 197);
     transition: 0.5s;
     animation: animate 4s linear infinite;
 }
@@ -984,7 +975,7 @@ button:hover{
     content: '';
     position: absolute;
     inset: -10px 67px;
-    background: #450ce2;
+    background: rgb(0, 158, 197);
     transition: 0.5s;
     animation: animate 4s linear infinite;
 }
@@ -1046,7 +1037,7 @@ button:hover{
     content: '';
     position: absolute;
     inset: -10px 67px;
-    background: #450ce2;
+    background: rgb(0, 158, 197);
     transition: 0.5s;
     animation: animate 4s linear infinite;
 }

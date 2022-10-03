@@ -1,13 +1,12 @@
 
 document.addEventListener("mousemove" , parallax);
 function parallax(e){
-    this.querySelectorAll('.layer').forEach(layer => {
-        const speed = layer.getAttribute('data-speed')
+    this.querySelectorAll('.ovimg3').forEach(ovimg3 => {
+        const speed = ovimg3.getAttribute('data-speed')
 
         const x = (window.innerWidth - e.pageX*speed)/100
         const y = (window.innerHeight - e.pageY*speed)/100
 
-        layer.style.transform = `translateX(${x}px) translateY(${y}px)`
+        ovimg3.style.transform = `translateX(${x}px) translateY(${y}px)`
     })
 }
-
