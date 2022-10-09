@@ -3,6 +3,26 @@
     margin: 0;
     padding: 0;
 }
+body{
+    margin: 0;
+    padding: 0;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    align-content: center;
+    background-size: cover;
+    overflow-x: hidden;
+}
+.content{
+    margin: 0;
+    padding: 0;
+    object-fit: cover;
+    background-size: cover;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    transition: 0.5s;
+}
 nav{
     display: flex;
     align-items: center;
@@ -17,7 +37,7 @@ nav{
     font-family: 'Red Hat Display', sans-serif;
     width: 100%; 
     position: fixed;
-    z-index: 999;
+    z-index: 9;
     font-weight: 500;
 }
 .logo{
@@ -1079,4 +1099,373 @@ button:hover{
     border-radius: 50%;
     height: 100%;
     object-fit: cover;
+}
+
+/* sign in page */
+
+.content#blur.active{
+    filter: blur(30px);
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    pointer-events: none;
+    user-select: none;
+    transform: scale(1.2);
+}
+#card.active{
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+}
+.card{
+    height: 520px;
+    width: 350px;
+    margin-left: 500px;  
+    margin-top: 55px;
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+.form{
+    height: 100%;
+    width: 100%;
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    transition: 0.5s ease-in;
+    border-radius: 30px;
+    position: relative;
+    background-color: #bce6ff3b;
+} 
+
+
+.form h2{
+    color: rgb(0, 219, 219);
+    font-weight: 600;
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+
+
+/* front */
+
+.form .front{
+    height: 100%;
+    width: 100%;
+    box-shadow: 0 10px 25px 0 rgba(27, 27, 27, 0.466), inset 0 -8px 16px 0 rgba(197, 226, 252, 0.253);
+    border-radius: 20px;
+    background: none;
+    position: absolute;
+    z-index: 1;
+    padding: 40px 40px;
+    display: flex;
+    flex-direction: column;
+    backdrop-filter: blur(50px);
+    backface-visibility: hidden;
+}
+.front .close-btn{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+    color: rgb(36, 36, 41);
+    transition: 0.5s;
+    font-size: large;
+    background: rgba(196, 221, 255, 0.719);
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 50%;
+}
+.front .close-btn:hover{
+    background: rgb(0, 219, 219);
+}
+.inputbox{
+    position: relative;
+    width: 265px;
+    margin-top: 30px;
+}
+.inputbox input{
+    position: relative;
+    width: 100%;
+    padding: 20px 10px 10px;
+    border-radius: 20px 10px 20px 10px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #23242a;
+    font-size: 1em;
+    letter-spacing: 0.05em;
+    z-index: 10;
+}
+.inputbox span{
+    position: absolute;
+    left: 0;
+    padding: 20px 0px 10px;
+    font-size: 1em;
+    color: #c0bcbc;
+    pointer-events: none;
+    letter-spacing: 0.05em;
+    transition: 0.5s;
+}
+.inputbox input:valid ~ span,
+.inputbox input:focus ~ span{
+    color:rgb(0, 219, 219);
+    transform: translateX(0) translateY(-34px);
+    font-size: 0.85em;
+}
+.inputbox i{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 265px;
+    height: 2px;
+    background: rgb(0, 219, 219);
+    border-radius: 20px 4px 20px 4px;
+    transition: 0.4s;
+    pointer-events: none;
+    z-index: 9;
+}
+.inputbox input:valid ~ i,
+.inputbox input:focus ~ i{
+    height: 44px;
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+}
+.links a{
+    margin: 20px 0;
+    font-size: 0.85em;
+    color: #c0bcbc;
+    text-decoration: none;
+}
+.links a:hover{
+    color: rgb(0, 219, 219);
+}
+input[type="submit"]{
+    border: none;
+    outline: none;
+    background: rgb(0, 219, 219);
+    padding: 11px 25px;
+    margin-top: 2px;
+    width: 100%;
+    font-weight: 600;
+    font-size: 0.9em;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.Orlogin{
+    margin: 16px 0;
+    font-size: 0.9em;
+    color: #c0bcbc;
+    text-decoration: none;
+    text-align: center;
+}
+.link1{
+    display: flex;
+    position: relative;
+    cursor: pointer;
+    color: #e2dbdb;
+    margin: 0 0 20px 0;
+    
+}
+.google, .facebook, .twitter{
+    width: 50%;
+    height: 42px;
+    line-height: 45px;
+    margin-top: 10px;   
+}
+.google{
+    margin-left: 0px;
+    padding-left: 31px;
+    margin-left: 4px;
+    transition: 0.4s;
+    border-radius: 5px;
+}
+.google:hover{
+    background: rgb(0, 219, 219);
+    color: #18191b;
+    border-radius: 20px;
+}
+.facebook{
+    margin-left: 0px;
+    padding-left: 30px;
+    margin-left: 20px;
+    transition: 0.4s;
+    border-radius: 5px;
+}
+.facebook:hover{
+    background: rgb(0, 219, 219);
+    color: #18191b;
+    border-radius: 20px;
+}
+.twitter{
+    margin-left: 0px;
+    padding-left: 30px;
+    margin-left: 20px;
+    transition: 0.4s;
+    border-radius: 5px;
+}
+.twitter:hover{
+    background: rgb(0, 219, 219);
+    color: #18191b;
+    border-radius: 20px;
+}
+.signup{
+    display: flex;
+    position: relative;
+    text-align: center;
+    color: #c0bcbc;
+    padding-top: 5px;
+    font-size: 0.95em;
+    margin-left: 6px;
+}
+.signup .sunow{
+    color: rgb(0, 219, 219);
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    margin-left: 8px;
+    transition: 0.4s;
+}
+.sunow:hover{
+    color: #18191b;
+    background: rgb(0, 219, 219);
+    border-radius: 20px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+
+/* back */
+
+.form .back{
+    height: 100%;
+    width: 100%;
+    box-shadow: 0 10px 25px 0 rgba(27, 27, 27, 0.466), inset 0 -8px 16px 0 rgba(197, 226, 252, 0.253);
+    border-radius: 20px;
+    background: none;
+    padding: 40px 40px;
+    display: flex;
+    flex-direction: column;
+    backdrop-filter: blur(50px);
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+}
+.back .close-btn{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+    color: rgb(36, 36, 41);
+    transition: 0.5s;
+    font-size: 18px;
+    background: rgba(196, 221, 255, 0.719);
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 50%;
+}
+.back .close-btn:hover{
+    background: rgb(0, 219, 219);
+}
+
+.inputbox2{
+    position: relative;
+    width: 265px;
+    margin-top: 20px;
+}
+.inputbox2 input{
+    position: relative;
+    width: 100%;
+    padding: 20px 10px 10px;
+    border-radius: 20px 10px 20px 10px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #23242a;
+    font-size: 1em;
+    letter-spacing: 0.05em;
+    z-index: 10;
+}
+.inputbox2 span{
+    position: absolute;
+    left: 0;
+    padding: 20px 0px 10px;
+    font-size: 1em;
+    color: #c0bcbc;
+    pointer-events: none;
+    letter-spacing: 0.05em;
+    transition: 0.5s;
+}
+.inputbox2 input:valid ~ span,
+.inputbox2 input:focus ~ span{
+    color:rgb(0, 219, 219);
+    transform: translateX(0) translateY(-34px);
+    font-size: 0.85em;
+}
+.inputbox2 i{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 265px;
+    height: 2px;
+    background: rgb(0, 219, 219);
+    border-radius: 20px 4px 20px 4px;
+    transition: 0.4s;
+    pointer-events: none;
+    z-index: 9;
+}
+.inputbox2 input:valid ~ i,
+.inputbox2 input:focus ~ i{
+    height: 44px;
+}
+
+.link2{
+    display: flex;
+    position: relative;
+    cursor: pointer;
+    color: #e2dbdb;
+    margin: 0 0 20px 0;
+}
+.OrSign{
+    margin: 16px 0;
+    font-size: 0.9em;
+    color: #c0bcbc;
+    text-decoration: none;
+    text-align: center;
+}
+.signup1 .sunow1{
+    color: rgb(0, 219, 219);
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    margin-left: 8px;
+    transition: 0.4s;
+}
+.sunow1:hover{
+    color: #18191b;
+    background: rgb(0, 219, 219);
+    border-radius: 20px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.signup1{
+    display: flex;
+    position: relative;
+    text-align: center;
+    color: #c0bcbc;
+    padding-top: 5px;
+    font-size: 0.95em;
+    margin-left: 27px;
 }
