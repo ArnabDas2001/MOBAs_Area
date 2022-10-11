@@ -1,8 +1,8 @@
 function toggle(){
     var blur = document.getElementById('blur');
     blur.classList.toggle('active');
-    var card = document.getElementById('card');
-    card.classList.toggle('active');
+    var card3 = document.getElementById('card3');
+    card3.classList.toggle('active');
 }
 function flip(){
     document.getElementById("form").style.

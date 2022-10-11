@@ -23,6 +23,9 @@ body{
     width: 100%;
     transition: 0.5s;
 }
+
+/* navbar */
+
 nav{
     display: flex;
     align-items: center;
@@ -37,7 +40,7 @@ nav{
     font-family: 'Red Hat Display', sans-serif;
     width: 100%; 
     position: fixed;
-    z-index: 9;
+    z-index: 2;
     font-weight: 500;
 }
 .logo{
@@ -576,13 +579,13 @@ button:hover{
     margin: auto;
     height: 100px;
     margin-top: 90px;
-    z-index: 999;
+    z-index: 1;
 }
 .timeline-container ul{
     padding: 0;
     margin: 0;
     padding-top: 15px;
-    z-index: 9999;
+    z-index: 2;
     position: absolute;
     width: 100%;
     margin-top: -40px;
@@ -1110,14 +1113,14 @@ button:hover{
     overflow: hidden;
     pointer-events: none;
     user-select: none;
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
-#card.active{
+#card3.active{
     visibility: visible;
     opacity: 1;
     transition: 0.5s;
 }
-.card{
+.card3{
     height: 520px;
     width: 350px;
     margin-left: 500px;  
@@ -1157,7 +1160,7 @@ button:hover{
     border-radius: 20px;
     background: none;
     position: absolute;
-    z-index: 1;
+    z-index: 999;
     padding: 40px 40px;
     display: flex;
     flex-direction: column;
