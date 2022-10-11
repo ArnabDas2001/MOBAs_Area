@@ -35,7 +35,6 @@ nav{
     padding-right: 5%;
     padding-left: 5%;
     border-radius: 0px;
-    background-color: rgba(0, 0, 0, 0.562);
     background-size: cover;
     font-family: 'Red Hat Display', sans-serif;
     width: 100%; 
@@ -46,6 +45,7 @@ nav{
 .logo{
     width: 160px;
     height: 100%;
+    margin-left: -10px;
     
 }
 
@@ -58,9 +58,9 @@ nav ul li{
 }
 nav ul li a{
     display: flex;
-    font-weight: bold 500;
-    font-size: 16px;
-    color: aliceblue;
+    font-weight: 500;
+    font-size: 18px;
+    color: rgb(250, 253, 255);
     position: relative;
     padding: 5px 0px;
     overflow: hidden;
@@ -90,6 +90,7 @@ nav ul li a::after{
 }
 nav ul li a:hover{
     color: aqua;
+    font-size: 16px;
 }
 nav ul li a:hover:before{
     right: 0;
@@ -99,11 +100,12 @@ nav ul li a:hover:after{
 }
 button{
     border: none;
-    background: rgba(245, 245, 245, 0.651);
+    background: rgba(12, 12, 12, 0.644);
     padding: 12px 30px;
-    border-radius: 30px;
-    color: black;
-    font-weight: 600;
+    border-radius: 15px;
+    color: rgb(255, 220, 22);
+    border: 0.5px solid rgb(255, 220, 22);
+    font-weight: 500;
     font-size: 15px;
     transition: .4s;
     margin: 0;
@@ -111,12 +113,24 @@ button{
 }
 button:hover{
     background: rgb(0, 236, 236);
-    transform: scale(1.2);
+    transform: scale(1.1);
     cursor: pointer;
+    font-weight: 600;
+    border-radius: 30px;
     margin: 0;
     color: black;
+    border: none;
 }
-
+header .nav, .sticky{
+    position: fixed;
+    padding: 50px 100%;
+    padding-bottom: 80px;
+    margin-left: -100%;
+    margin-top: -50px;
+    background: rgba(12, 12, 12, 0.904);
+    z-index: 12;
+    transition: 0.5s;
+}
 
 .welcome video{
     position: absolute;
@@ -1107,17 +1121,17 @@ button:hover{
 /* sign in page */
 
 .content#blur.active{
-    filter: blur(30px);
+    filter: blur(20px);
     margin: 0;
     padding: 0;
     pointer-events: none;
     user-select: none;
-    transform: scale(1.18);
+    transform: scale(1.1);
 }
 #card3.active{
     visibility: visible;
     opacity: 1;
-    transition: 0.5s;
+    transition: 0.4s;
     position: fixed;
 }
 .card3{
