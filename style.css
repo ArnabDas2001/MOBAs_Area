@@ -1110,35 +1110,37 @@ button:hover{
     filter: blur(30px);
     margin: 0;
     padding: 0;
-    overflow: hidden;
     pointer-events: none;
     user-select: none;
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 #card3.active{
     visibility: visible;
     opacity: 1;
     transition: 0.5s;
+    position: fixed;
 }
 .card3{
     height: 520px;
     width: 350px;
-    margin-left: 500px;  
-    margin-top: 55px;
-    position: absolute;
+    margin-left: 500px;
+    margin-top: 50px;
+    z-index: 11;
     visibility: hidden;
+    position: absolute;
     opacity: 0;
     transition: 0.5s;
+    font-family: 'Play', sans-serif;
 }
 .form{
     height: 100%;
     width: 100%;
     transform-style: preserve-3d;
     -webkit-transform-style: preserve-3d;
-    transition: 0.5s ease-in;
+    transition: 0.4s ease-in;
     border-radius: 30px;
     position: relative;
-    background-color: #bce6ff3b;
+    background-color: #000000;
 } 
 
 
@@ -1156,7 +1158,7 @@ button:hover{
 .form .front{
     height: 100%;
     width: 100%;
-    box-shadow: 0 10px 25px 0 rgba(27, 27, 27, 0.466), inset 0 -8px 16px 0 rgba(197, 226, 252, 0.253);
+    box-shadow: 0 10px 25px 0 rgba(27, 27, 27, 0.466);
     border-radius: 20px;
     background: none;
     position: absolute;
@@ -1322,9 +1324,9 @@ input[type="submit"]{
     position: relative;
     text-align: center;
     color: #c0bcbc;
-    padding-top: 5px;
+    padding-top: -5px;
     font-size: 0.95em;
-    margin-left: 6px;
+    display: block;
 }
 .signup .sunow{
     color: rgb(0, 219, 219);
@@ -1332,17 +1334,8 @@ input[type="submit"]{
     border: none;
     cursor: pointer;
     font-size: 1em;
-    margin-left: 8px;
+    margin-top: -5px;
     transition: 0.4s;
-}
-.sunow:hover{
-    color: #18191b;
-    background: rgb(0, 219, 219);
-    border-radius: 20px;
-    padding-left: 6px;
-    padding-right: 6px;
-    padding-top: 2px;
-    padding-bottom: 2px;
 }
 
 
@@ -1351,7 +1344,7 @@ input[type="submit"]{
 .form .back{
     height: 100%;
     width: 100%;
-    box-shadow: 0 10px 25px 0 rgba(27, 27, 27, 0.466), inset 0 -8px 16px 0 rgba(197, 226, 252, 0.253);
+    box-shadow: 0 10px 25px 0 rgba(27, 27, 27, 0.466);
     border-radius: 20px;
     background: none;
     padding: 40px 40px;
@@ -1451,25 +1444,15 @@ input[type="submit"]{
     border: none;
     cursor: pointer;
     font-size: 1em;
-    margin-left: 8px;
+    margin-top: -5px;
     transition: 0.4s;
-}
-.sunow1:hover{
-    color: #18191b;
-    background: rgb(0, 219, 219);
-    border-radius: 20px;
-    padding-left: 6px;
-    padding-right: 6px;
-    padding-top: 2px;
-    padding-bottom: 2px;
 }
 .signup1{
     display: flex;
     position: relative;
     text-align: center;
     color: #c0bcbc;
-    padding-top: 5px;
+    padding-top: -5px;
     font-size: 0.95em;
-    margin-left: 27px;
+    display: inline;
 }
-/* . */
