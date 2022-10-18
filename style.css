@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 body{
     margin: 0;
@@ -1473,14 +1474,17 @@ footer{
     position: relative;
     width: 1365px;
     margin-left: -190px;
-    margin-top: 700px;
+    margin-top: 600px;
     background: black;
     height: 220px;
-    z-index: 2;
 }
 
 footer .footerimg{
     margin-top: -850px;
     width: 100%;
-    z-index: 1;
+}
+
+#logoimg{
+    margin-bottom: -400px;
+    width: 440px;
 }
