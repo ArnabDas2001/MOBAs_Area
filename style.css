@@ -1487,5 +1487,30 @@ footer .footerimg{
 #logoimg{
     margin-bottom: -460px;
     width: 270px;
-    margin-right: 60px;
+    margin-right: 40px;
 }
+
+/* scroll to top button */
+#scroll-up {
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    height: 90px;
+    width: 90px;
+    display: none;
+    z-index: 10;
+    place-items: center;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+  }
+  #progress-scroll {
+    display: block;
+    height: calc(100% - 18px);
+    width: calc(100% - 18px);
+    background-color: rgb(24, 23, 23);
+    padding: 10px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+  }
