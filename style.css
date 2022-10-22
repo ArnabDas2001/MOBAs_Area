@@ -144,6 +144,7 @@ header .nav, .sticky{
     height: 100%;
     object-fit: cover;
     z-index: -1;
+    border-bottom: 11px solid gold;
 }
 .heading{
     padding-top: 16%;
@@ -1481,12 +1482,13 @@ footer{
     width: 100%;
     background: black;
     height: 220px;
-    z-index: 99;
 }
 
 footer .footerimg{
-    margin-top: -850px;
+    position: absolute;
+    margin-top: -830px;
     width: 100%;
+    left: 0;
 }
 
 #logoimg{
@@ -1527,11 +1529,20 @@ footer .footerimg{
   }
 
   html::-webkit-scrollbar-track{
-    background-color: rgb(210, 247, 250);
+    background-color: rgb(238, 230, 230);
+  }
+
+  html::-webkit-scrollbar-track:hover{
+    background-color: rgb(230, 255, 255);
   }
 
   html::-webkit-scrollbar-thumb{
-   background: linear-gradient(to bottom, gold, rgb(0, 225, 255));
-   border-radius: 50px;
+    background: linear-gradient(160deg , rgba(255, 253, 133, 0), rgb(26, 26, 26));
+    border-radius: 10px;
+   }
+ 
+  html::-webkit-scrollbar-thumb:hover{
+   background:  rgb(0, 199, 199);
+   border-radius: 10px;
   }
 
