@@ -129,6 +129,7 @@ header .nav, .sticky{
     margin-left: -100%;
     margin-top: -50px;
     background: rgba(12, 12, 12, 0.904);
+    box-shadow: 0 0 10px black, 0 0 20px black, 0 0 40px black;
     z-index: 12;
     transition: 0.5s;
 }
@@ -1495,6 +1496,46 @@ footer .footerimg{
     margin-bottom: -460px;
     width: 270px;
     margin-right: 40px;
+}
+footer .particales{
+    position: relative;
+    display: flex;
+}
+footer .particales span{
+    position: relative;
+    width: 3px;
+    height: 3px;
+    background: whitesmoke;
+    margin: 0 3px;
+    border-radius: 50%;
+    animation: animate 50s linear infinite;
+    animation-duration: calc(110s/var(--i));
+}
+@keyframes animate{
+    0%{
+        transform: translateY(210px) ;
+    }
+    20%{
+        transform: translateY(170px) ;
+    }
+    40%{
+        transform: translateY(130px) ;
+    }
+    60%{
+        transform: translateY(90px) ;
+    }
+    80%{
+        transform: translateY(50px) ;
+    }
+    100%{
+        transform: translateY(-10vh) ;
+    }
+}
+
+footer .footer-icons{
+    position: absolute;
+    display: inline;
+    margin: 100px;  
 }
 
 /* scroll to top button */
