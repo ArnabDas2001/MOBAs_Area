@@ -29,7 +29,8 @@
 
 <body>
 
-  
+<div id="preloader"></div>
+
 <div class="overlay" id="overlay">
   
   <!-- signin page -->
@@ -119,10 +120,10 @@
            <nav>
             <img src="Gallary/90691760234.png" class="logo">
             <ul>
-                <li><a href="#">OVERVIEW</a></li>
+                <li><a href="#overview">OVERVIEW</a></li>
                 <li><a href="#">NEWS</a></li>
                 <li><a href="#">POPULAR</a></li>
-                <li><a href="#">CHAMPIONS</a></li>              
+                <li><a href="#roles">CHAMPIONS</a></li>              
             </ul>
             <button type="button" onclick="toggle()">SIGN IN/SIGN UP</button>
         </nav>
@@ -133,7 +134,7 @@
 
     <div class="heading">
         <h1>Welcome to MOBA'S AREA</h1>
-        <a href="#">Explore</a>
+        <a href="#swipeCards">Explore</a>
         <div class="stc">
         <div class="stc1"><img src="Gallary/images__3_-removebg-preview.png" alt="" width="90px"></div>
         <div class="stc2"><img src="Gallary/league-of-legends-logo-1.png" alt="" width="128px"></div>
@@ -160,18 +161,18 @@
         <br>
         <br>
         <h1 style="font-family: 'Poppins', sans-serif; color: rgba(22, 21, 21, 0.904); font-weight: 600;
-        font-size: 28px;  padding-bottom: 50px;">OVERVIEW</h1>
+        font-size: 28px;  padding-bottom: 50px;" id="overview" class="reveal">OVERVIEW</h1>
           
-            <div class="card1">
+            <div class="card1 reveal">
               <img src="Gallary/Moba_overview-01-01.jpeg" data-speed="-1.1" class="ovimg1">
-              <script src="parallax_ovimg1.js"></script>
+              <script src="Js/parallax_ovimg1.js"></script>
             <h2>MOBA</h2>
             <p>The abbreviation MOBA stands for Multiplayer Online Battle Arena and refers to games which generally have a very specific set of features in their gameplay and design. Basically, such titles tend to have a real-time strategy element and revolve around a fairly simple aim: to compete in a team against opponents and defeat them in a form of battle.</p>
            </div>
 
-            <div class="card1of1">
+            <div class="card1of1 reveal">
             <img src="Gallary/overviewimg2.jpeg" data-speed="1.1" class="ovimg2">
-            <script src="parallax_ovimg2.js"></script>
+            <script src="Js/parallax_ovimg2.js"></script>
             <h2>Play Style</h2>
             <p>A key part of playing MOBA games is familiarizing yourself with the features that such titles tend to have. It is very common for MOBAs to involve:
               <br>
@@ -185,17 +186,17 @@
               </p>
               </div>
 
-            <div class="card2of1">
+            <div class="card2of1 reveal">
             <img src="Gallary/overviewimg3.jpeg" data-speed="-1.1" class="ovimg3">
-            <script src="parallax_ovimg3.js"></script>
+            <script src="Js/parallax_ovimg3.js"></script>
             <h2>First MOBA Game</h2>
             <p>The first well known MOBA was released in 2003, as a fan made mod (short for modification) for the game Warcraft III. This mod became known as Defense of the Ancients (DotA), with many iterations to follow, most notably Defense of the Ancients Allstars, simplified to DotA.
               </p>
               </div>
 
-            <div class="card3of1">
+            <div class="card3of1 reveal">
             <img src="Gallary/overviewimg4.jpeg" data-speed="1.1" class="ovimg4">
-            <script src="parallax_ovimg4.js"></script>
+            <script src="Js/parallax_ovimg4.js"></script>
             <h2>Top MOBA Games</h2>
             <p>
             <div class="list2">
@@ -217,28 +218,28 @@
               </div>
 
             
-            <div class="card4of1">
+            <div class="card4of1 reveal">
             <img src="Gallary/overviewimg5.jpeg" data-speed="-1.1" class="ovimg5">
-            <script src="parallax_ovimg5.js"></script>
+            <script src="Js/parallax_ovimg5.js"></script>
             <h2>MOBAs on mobile</h2>
             <p>The MOBA genre is commonly linked to the world of PCs. However, the emergence of smartphones and tablets as platforms which can offer a high quality gaming experience means that a host of top games are now available for those who are regularly on the move.In fact, while PC games can be quite tough to initially get to grips with, the accessibility of mobile gaming means that the platform is often a fairly simple way for people to take their first steps into the world of MOBA gaming, especially in terms of simplified controls.
               </p>
               </div>
 
-            <div class="card5of1">
+            <div class="card5of1 reveal">
             <img src="Gallary/overviewimg6.jpeg" data-speed="1.1" class="ovimg6">
-            <script src="parallax_ovimg6.js"></script>
+            <script src="Js/parallax_ovimg6.js"></script>
             <h2>MOBAs and eSports</h2>
             <p>The idea of playing video games for a living might seem like a teenager’s dream, but the ever-growing world of eSports has made that a reality for some of the most talented gamers on the planet. Professional competitive gaming sees players do battle on a range of titles, with MOBAs forming a fundamental part of the scene. Competitions related to the likes of League of Legends and Dota 2 tend to have major amounts of prize money on offer, with winning sides often securing multimillion dollar sums for coming out on top.
             </p>
             </div>
 
 
- <div class="heading2">FEATURED MOBA'S</div>
+ <div class="heading2 reveal" id="swipeCards">FEATURED MOBA'S</div>
 
 
   <!-- Swiper -->
-     <div class="swiper mySwiper" style="width: 100%; height: 580px; align-items: center; padding-top: 48px; padding-left:100px; padding-right: 100px;">
+     <div class="swiper mySwiper reveal" style="width: 100%; height: 580px; align-items: center; padding-top: 48px; padding-left:100px; padding-right: 100px;">
     <div class="swiper-wrapper" style="align-items: center;">
       <div class="swiper-slide"><div class="card2" style="background: linear-gradient(270deg, rgba(14, 98, 255, 0.938),rgba(5, 255, 201, 0.808));
         box-shadow: 0 10px 20px rgba(107, 107, 107, 0.952), 0 10px 20px rgba(0, 0, 0, 0.507);
@@ -840,16 +841,16 @@
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 
-<script src="swiper.js"></script>
+<script src="Js/swiper.js"></script>
  
-<div class="heading3">ROLES IN MOBA</div>
+<div class="heading3 reveal" id="roles">ROLES IN MOBA</div>
 
 
 
 <br>
 
-<div class="timeline-wrapper">
-  <div class="timeline-container">
+<div class="timeline-wrapper reveal">
+  <div class="timeline-container reveal">
     <ul>
       <li class="Role first-Role active" >
         <div class="All-Role">TANK</div>
@@ -887,7 +888,7 @@
   <img src="Gallary/YTduo2-removebg-preview.png" alt="" data-speed="-3" class="layer" width="1150px" style="margin-top:-350px; margin-left: -115px;">
 </div>
 
- <script src="parallax.js"></script>
+ <script src="Js/parallax.js"></script>
 
   <div id="progress-content-section">
     <div class="section-content TANK active">
@@ -963,9 +964,9 @@
 </div>
 
 <!-- Footer -->
-<video autoplay loop muted plays-inline src="Gallary/footerimganime.mp4" id="logoimg"></video>
+<video autoplay loop muted plays-inline src="Gallary/footerimganime.mp4" id="logoimg" class="reveal"></video>
 <footer>
-<img src="Gallary/Footerimage.png" alt="" class="footerimg">
+<img src="Gallary/Footerimage.png" alt="" class="footerimg reveal">
 <div class="stars"></div>
 <div class="stars2"></div>
 <div class="stars3"></div>
@@ -974,6 +975,12 @@
     <a class="fb reveal" href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
     <a class="yt reveal" href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
     <a class="twit reveal" href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+</div>
+<div class="ftr-txt">
+  <p>The website is very seriously made by doing some heavy research and planning. And is being ™ and © to Moba's Area itself. Just kidding, this is the first website ever made by me as I started learning about basics of html, css and Js. Also this landing page contains a video which were taken from youtube, so don't report this site for using it.
+  <br>
+  [Made with ❤️ by Arnab (special thanks to my buddy Priyadarsi)]
+  </p>
 </div>
 </div>
 </footer>
@@ -984,12 +991,13 @@
 
 
 
-
-<script src="navbar.js"></script>
+<script src="Js/loader.js"></script>
+<script src="Js/navbar.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="timeline.js"></script>
-<script src="sign.js"></script>
-<script src="scrolltotop.js"></script>
+<script src="Js/timeline.js"></script>
+<script src="Js/sign.js"></script>
+<script src="Js/scrolltotop.js"></script>
+<script src="Js/reveal.js"></script>
 
 
 </body>
