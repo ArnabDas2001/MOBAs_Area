@@ -16,7 +16,7 @@
 <!-- PROJECT LOGO -->
 <br/>
 <div align="center">
-  <a href="https://github.com/ArnabDas2001/MOBAs_Area---non-responsive">
+  <a href="https://arnabdas2001.github.io/MOBAs_Area/">
     <img src="Gallary/Screenshot_20220907-155238_Chrome-removebg-preview.png" alt="Logo" width="250" height="300">
   </a>
 
