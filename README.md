@@ -28,7 +28,7 @@
     <a href="https://github.com/ArnabDas2001/MOBAs_Area---non-responsive"><strong>Explore the files »</strong></a>
     <br />
     <br />
-    <a href="https://arnabdas2001.github.io/MOBAs_Area---non-responsive/">View Demo</a>
+    <a href="https://arnabdas2001.github.io/MOBAs_Area/">View Demo</a>
     ·
     <a href="https://github.com/ArnabDas2001/MOBAs_Area---non-responsive/issues">Report Bug</a>
     ·
